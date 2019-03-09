@@ -1,41 +1,30 @@
-# Babel Webpack Starter
+# MicroPosts website - Post what's on your mind
 
-A starter pack to build JavaScript applications using standards from ES2015, ES2016 & ES2017. It uses webpack, Babel and webpack-dev-server to compile and serve. It is fully compatible with Async/Await as it uses the Babel polyfill.
+A website where you can post what's on your mind. You post a title and text. Once submitted the posts can be edited or deleted.
 
-### Version
-1.1.0
+It is a full CRUD application built with pure vanilla JavaScript.
 
-## Usage
+It includes the easyHTTP library from the earlier project.
+[easyHTTP library](https://github.com/AlbertStjarne/Custom_HTTP_library)
 
-### Installation
+To mimic a REST API JSON Server has been used holding a json file with the added posts.
+[JSON Server](https://github.com/typicode/json-server)
 
-Install the dependencies
+Bootstrap with the bootswatch theme has been used for styling.
+[bootswatch](https://bootswatch.com)
 
-```sh
-$ npm install
-```
 
-### Serve
-To serve in the browser  - Runs webpack-dev-server
 
-```sh
-$ npm start
-```
+## Screenshots
 
-### Build
-Compile and build
+Add post
 
-```sh
-$ npm run build
-```
+<img src="add_post.gif" width=650>
 
-## More Info
+Update and delete post
 
-### Author
+<img src="update_delete_post.gif" width=650>
 
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
 
-### License
-
-This project is licensed under the MIT License
+## Author
+* Albert Stjärne (https://github.com/AlbertStjarne)
